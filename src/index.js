@@ -4,10 +4,11 @@ import './index.scss';
 import 'tachyons';
 import reportWebVitals from './reportWebVitals';
 import Card from './Card'
+import { robots } from './robots'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card/>
+    <Card robot={robots[0]}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
